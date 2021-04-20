@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+Welcome to Student Mangement System
+<p>
+To view student information click below button<br>
+<a href="{% url 'students_list' %}">
+    <button type="button" class="btn btn-danger">Student List</button>
+</a>
+</p>
+
+
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="card-body">
+        <tbody>
+            <tr>
+                <td>ID : {{students.id}}</td>
+                <br>
+                <td>First Name: {{students.first_name}}</td>
+                <br>
+                <td>Last Name: {{students.last_name}}</td>
+                <br>
+                <td>Registration Number: {{students.registeration_num}}</td>
+                <br>
+                <td>Gender : {{students.gender}}</td>
+                <br>
+                <td>Created Dated : {{students.created_dt}}</td>
+                <br>
+                <td>Modified Date : {{students.modify_dt}} </td>
+                <br>
+            </tr>
+        </tbody>
+ </table>
+</div>
+
+{% endblock %}
